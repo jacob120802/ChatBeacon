@@ -1,0 +1,22 @@
+# Installed packages and generated build output
+**/node_modules/
+**/dist/
+**/.npm-cache/
+**/node-compile-cache/
+**/tsx-CodexSandboxOffline/
+
+# Local environment files may contain secrets
+.env
+.env.*
+!.env.example
+
+# Local OAuth refresh token (keep outside source control)
+backend/data/
+
+# Logs
+*.log
+
+# Local browser verification and demo media
+frontend/test-results/
+frontend/playwright-report/
+demo-output/
